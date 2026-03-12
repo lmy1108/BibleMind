@@ -1,0 +1,87 @@
+09:42:20  INFO     Connecting to Neo4j at bolt://localhost:7687 as neo4j
+09:42:20  INFO     Neo4j connection verified.
+09:42:21  INFO     Pre-flight: index 'verse_embedding_idx' is ONLINE.
+09:42:21  INFO     Qualifying verses: 31017
+09:42:25  INFO     KNN: 500 / 31017 verses  (1.6%)  126 v/s  ETA 242s
+09:42:28  INFO     KNN: 1000 / 31017 verses  (3.2%)  147 v/s  ETA 204s
+09:42:31  INFO     KNN: 1500 / 31017 verses  (4.8%)  151 v/s  ETA 196s
+09:42:34  INFO     KNN: 2000 / 31017 verses  (6.4%)  151 v/s  ETA 192s
+09:42:39  INFO     KNN: 2500 / 31017 verses  (8.1%)  139 v/s  ETA 206s
+09:42:46  INFO     KNN: 3000 / 31017 verses  (9.7%)  121 v/s  ETA 232s
+09:42:49  INFO     KNN: 3500 / 31017 verses  (11.3%)  123 v/s  ETA 223s
+09:42:54  INFO     KNN: 4000 / 31017 verses  (12.9%)  121 v/s  ETA 223s
+09:42:59  INFO     KNN: 4500 / 31017 verses  (14.5%)  118 v/s  ETA 224s
+09:43:03  INFO     KNN: 5000 / 31017 verses  (16.1%)  119 v/s  ETA 219s
+09:43:07  INFO     KNN: 5500 / 31017 verses  (17.7%)  121 v/s  ETA 211s
+09:43:09  INFO     KNN: 6000 / 31017 verses  (19.3%)  124 v/s  ETA 201s
+09:43:13  INFO     KNN: 6500 / 31017 verses  (21.0%)  126 v/s  ETA 195s
+09:43:16  INFO     KNN: 7000 / 31017 verses  (22.6%)  128 v/s  ETA 187s
+09:43:19  INFO     KNN: 7500 / 31017 verses  (24.2%)  129 v/s  ETA 183s
+09:43:23  INFO     KNN: 8000 / 31017 verses  (25.8%)  130 v/s  ETA 177s
+09:43:25  INFO     KNN: 8500 / 31017 verses  (27.4%)  132 v/s  ETA 171s
+09:43:28  INFO     KNN: 9000 / 31017 verses  (29.0%)  133 v/s  ETA 165s
+09:43:31  INFO     KNN: 9500 / 31017 verses  (30.6%)  135 v/s  ETA 159s
+09:43:35  INFO     KNN: 10000 / 31017 verses  (32.2%)  136 v/s  ETA 155s
+09:43:38  INFO     KNN: 10500 / 31017 verses  (33.9%)  136 v/s  ETA 151s
+09:43:41  INFO     KNN: 11000 / 31017 verses  (35.5%)  137 v/s  ETA 146s
+09:43:45  INFO     KNN: 11500 / 31017 verses  (37.1%)  137 v/s  ETA 142s
+09:43:48  INFO     KNN: 12000 / 31017 verses  (38.7%)  139 v/s  ETA 137s
+09:43:51  INFO     KNN: 12500 / 31017 verses  (40.3%)  140 v/s  ETA 133s
+09:43:54  INFO     KNN: 13000 / 31017 verses  (41.9%)  140 v/s  ETA 128s
+09:43:57  INFO     KNN: 13500 / 31017 verses  (43.5%)  141 v/s  ETA 124s
+09:44:00  INFO     KNN: 14000 / 31017 verses  (45.1%)  142 v/s  ETA 120s
+09:44:03  INFO     KNN: 14500 / 31017 verses  (46.7%)  142 v/s  ETA 116s
+09:44:06  INFO     KNN: 15000 / 31017 verses  (48.4%)  143 v/s  ETA 112s
+09:44:09  INFO     KNN: 15500 / 31017 verses  (50.0%)  144 v/s  ETA 108s
+09:44:12  INFO     KNN: 16000 / 31017 verses  (51.6%)  144 v/s  ETA 104s
+09:44:16  INFO     KNN: 16500 / 31017 verses  (53.2%)  143 v/s  ETA 101s
+09:44:19  INFO     KNN: 17000 / 31017 verses  (54.8%)  144 v/s  ETA 97s
+09:44:22  INFO     KNN: 17500 / 31017 verses  (56.4%)  144 v/s  ETA 94s
+09:44:25  INFO     KNN: 18000 / 31017 verses  (58.0%)  145 v/s  ETA 90s
+09:44:29  INFO     KNN: 18500 / 31017 verses  (59.6%)  145 v/s  ETA 87s
+09:44:32  INFO     KNN: 19000 / 31017 verses  (61.3%)  145 v/s  ETA 83s
+09:44:35  INFO     KNN: 19500 / 31017 verses  (62.9%)  146 v/s  ETA 79s
+09:44:38  INFO     KNN: 20000 / 31017 verses  (64.5%)  146 v/s  ETA 75s
+09:44:41  INFO     KNN: 20500 / 31017 verses  (66.1%)  147 v/s  ETA 72s
+09:44:43  INFO     KNN: 21000 / 31017 verses  (67.7%)  147 v/s  ETA 68s
+09:44:46  INFO     KNN: 21500 / 31017 verses  (69.3%)  148 v/s  ETA 64s
+09:44:49  INFO     KNN: 22000 / 31017 verses  (70.9%)  149 v/s  ETA 61s
+09:44:52  INFO     KNN: 22500 / 31017 verses  (72.5%)  149 v/s  ETA 57s
+09:44:55  INFO     KNN: 23000 / 31017 verses  (74.2%)  149 v/s  ETA 54s
+09:44:58  INFO     KNN: 23500 / 31017 verses  (75.8%)  150 v/s  ETA 50s
+09:45:01  INFO     KNN: 24000 / 31017 verses  (77.4%)  150 v/s  ETA 47s
+09:45:04  INFO     KNN: 24500 / 31017 verses  (79.0%)  150 v/s  ETA 43s
+09:45:07  INFO     KNN: 25000 / 31017 verses  (80.6%)  151 v/s  ETA 40s
+09:45:10  INFO     KNN: 25500 / 31017 verses  (82.2%)  151 v/s  ETA 36s
+09:45:13  INFO     KNN: 26000 / 31017 verses  (83.8%)  152 v/s  ETA 33s
+09:45:15  INFO     KNN: 26500 / 31017 verses  (85.4%)  152 v/s  ETA 30s
+09:45:17  INFO     KNN: 27000 / 31017 verses  (87.0%)  153 v/s  ETA 26s
+09:45:20  INFO     KNN: 27500 / 31017 verses  (88.7%)  153 v/s  ETA 23s
+09:45:23  INFO     KNN: 28000 / 31017 verses  (90.3%)  154 v/s  ETA 20s
+09:45:26  INFO     KNN: 28500 / 31017 verses  (91.9%)  154 v/s  ETA 16s
+09:45:29  INFO     KNN: 29000 / 31017 verses  (93.5%)  154 v/s  ETA 13s
+09:45:32  INFO     KNN: 29500 / 31017 verses  (95.1%)  155 v/s  ETA 10s
+09:45:34  INFO     KNN: 30000 / 31017 verses  (96.7%)  155 v/s  ETA 7s
+09:45:37  INFO     KNN: 30500 / 31017 verses  (98.3%)  155 v/s  ETA 3s
+09:45:40  INFO     KNN: 31000 / 31017 verses  (99.9%)  156 v/s  ETA 0s
+09:45:40  INFO     KNN: 31017 / 31017 verses  (100.0%)  156 v/s  ETA 0s
+09:45:40  INFO     KNN complete: 155085 IS_SIMILAR edges written in 199.4s.
+09:45:40  INFO     ─── Validation ───────────────────────────────────────
+09:45:40  INFO       Total IS_SIMILAR edges: 155085
+09:45:41  INFO       ✓  Max outgoing degree: 5 on 'Genesis 1:1'  (limit: 5)
+09:45:41  INFO       ✓  Romans 8:28 top IS_SIMILAR neighbors (undirected):
+09:45:41  INFO            rank 1   1 Corinthians 12:6              score=0.8201
+09:45:41  INFO            rank 2   Ephesians 2:10                  score=0.8148
+09:45:41  INFO            rank 2   Ephesians 2:10                  score=0.8148
+09:45:41  INFO       ✓  John 3:16 top IS_SIMILAR neighbors (undirected):
+09:45:41  INFO            rank 1   John 3:15                       score=0.8733
+09:45:41  INFO            rank 1   John 3:15                       score=0.8733
+09:45:41  INFO            rank 2   1 John 4:9                      score=0.8211
+09:45:41  INFO       ✓  Psalm 23:1 top IS_SIMILAR neighbors (undirected):
+09:45:41  INFO            rank 1   Psalms 63:1                     score=0.8359
+09:45:41  INFO            rank 2   Psalms 63:1                     score=0.8359
+09:45:41  INFO            rank 2   Psalms 27:1                     score=0.8295
+09:45:41  INFO       ℹ  ROM.8.28 directed neighbors: 5  |  undirected: 7  (undirected should be >= directed)
+09:45:41  INFO     ──────────────────────────────────────────────────────
+09:45:41  INFO     Step 3c complete.  155085 IS_SIMILAR edges written.
+09:45:41  INFO     Next: run step4_validate.py for the full validation suite.

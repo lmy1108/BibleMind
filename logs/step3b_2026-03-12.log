@@ -1,0 +1,17 @@
+09:32:11  INFO     Connecting to Neo4j at bolt://localhost:7687 as neo4j
+09:32:11  INFO     Neo4j connection verified.
+09:32:11  INFO     Pre-flight: 31017 verses have embeddings.
+09:32:12  INFO     CREATE VECTOR INDEX issued (IF NOT EXISTS — safe to re-run).
+09:32:12  INFO     Waiting for index 'verse_embedding_idx' to reach ONLINE status (timeout: 600s) …
+09:32:12  INFO       Populating … 0.0%  (checking again in 10s)
+09:32:22  INFO     ✓  Index is ONLINE (100%% populated).
+09:32:22  INFO     ─── Validation ───────────────────────────────────────
+09:32:22  INFO       ✓  Index state: ONLINE
+09:32:22  INFO       ℹ  Verses with embeddings: 31017
+09:32:22  INFO       Running KNN smoke test on ROM.8.28 …
+09:32:22  INFO       ✓  KNN smoke test passed.  Top 2 semantic neighbors of Romans 8:28:
+09:32:22  INFO            1 Corinthians 12:6              score=0.8201
+09:32:22  INFO            Ephesians 2:10                  score=0.8148
+09:32:22  INFO     ──────────────────────────────────────────────────────
+09:32:22  INFO     Step 3b complete.  HNSW vector index is ONLINE.
+09:32:22  INFO     Next: run step3c_knn.py to write IS_SIMILAR edges.

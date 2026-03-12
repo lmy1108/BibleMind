@@ -1,0 +1,743 @@
+00:09:53  INFO     Checkpoint file deleted.  Starting from scratch.
+00:09:53  INFO     Connecting to Neo4j at bolt://localhost:7687 as neo4j
+00:09:53  INFO     Neo4j connection verified.
+00:09:54  INFO     Fetched 31017 qualifying verses (char_count >= 25).
+00:09:54  INFO     Embeddings to generate: 31017  (already done: 0 / 31017)
+00:09:55  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:09:55  INFO     API: 100 / 31017 new  |  total 100 / 31017  (0.3%)  99 verses/sec
+00:09:56  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:09:56  INFO     API: 200 / 31017 new  |  total 200 / 31017  (0.6%)  107 verses/sec
+00:09:56  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:09:57  INFO     API: 300 / 31017 new  |  total 300 / 31017  (1.0%)  108 verses/sec
+00:09:57  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:09:57  INFO     Retrying request to /embeddings in 0.420602 seconds
+00:09:58  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:09:58  INFO     API: 400 / 31017 new  |  total 400 / 31017  (1.3%)  94 verses/sec
+00:09:58  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:09:58  INFO     Retrying request to /embeddings in 0.486192 seconds
+00:09:59  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:09:59  INFO     Retrying request to /embeddings in 0.846098 seconds
+00:10:01  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:01  INFO     API: 500 / 31017 new  |  total 500 / 31017  (1.6%)  70 verses/sec
+00:10:02  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:02  INFO     API: 600 / 31017 new  |  total 600 / 31017  (1.9%)  71 verses/sec
+00:10:03  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:03  INFO     API: 700 / 31017 new  |  total 700 / 31017  (2.3%)  73 verses/sec
+00:10:04  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:10:04  INFO     Retrying request to /embeddings in 0.412501 seconds
+00:10:05  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:06  INFO     API: 800 / 31017 new  |  total 800 / 31017  (2.6%)  68 verses/sec
+00:10:07  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:08  INFO     API: 900 / 31017 new  |  total 900 / 31017  (2.9%)  65 verses/sec
+00:10:08  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:09  INFO     API: 1000 / 31017 new  |  total 1000 / 31017  (3.2%)  65 verses/sec
+00:10:09  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:10:09  INFO     Retrying request to /embeddings in 0.481767 seconds
+00:10:10  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:12  INFO     API: 1100 / 31017 new  |  total 1100 / 31017  (3.5%)  63 verses/sec
+00:10:12  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:13  INFO     API: 1200 / 31017 new  |  total 1200 / 31017  (3.9%)  62 verses/sec
+00:10:14  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:15  INFO     API: 1300 / 31017 new  |  total 1300 / 31017  (4.2%)  61 verses/sec
+00:10:16  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:17  INFO     API: 1400 / 31017 new  |  total 1400 / 31017  (4.5%)  60 verses/sec
+00:10:18  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:19  INFO     API: 1500 / 31017 new  |  total 1500 / 31017  (4.8%)  59 verses/sec
+00:10:20  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:21  INFO     API: 1600 / 31017 new  |  total 1600 / 31017  (5.2%)  59 verses/sec
+00:10:21  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:10:21  INFO     Retrying request to /embeddings in 0.380926 seconds
+00:10:23  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:24  INFO     API: 1700 / 31017 new  |  total 1700 / 31017  (5.5%)  56 verses/sec
+00:10:24  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:10:24  INFO     Retrying request to /embeddings in 0.456977 seconds
+00:10:26  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:27  INFO     API: 1800 / 31017 new  |  total 1800 / 31017  (5.8%)  54 verses/sec
+00:10:30  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:32  INFO     API: 1900 / 31017 new  |  total 1900 / 31017  (6.1%)  50 verses/sec
+00:10:33  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:34  INFO     API: 2000 / 31017 new  |  total 2000 / 31017  (6.4%)  50 verses/sec
+00:10:35  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:36  INFO     API: 2100 / 31017 new  |  total 2100 / 31017  (6.8%)  49 verses/sec
+00:10:36  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:10:36  INFO     Retrying request to /embeddings in 0.478866 seconds
+00:10:37  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:39  INFO     API: 2200 / 31017 new  |  total 2200 / 31017  (7.1%)  48 verses/sec
+00:10:40  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:10:40  INFO     Retrying request to /embeddings in 0.445664 seconds
+00:10:41  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:43  INFO     API: 2300 / 31017 new  |  total 2300 / 31017  (7.4%)  47 verses/sec
+00:10:43  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:10:43  INFO     Retrying request to /embeddings in 0.465244 seconds
+00:10:44  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:46  INFO     API: 2400 / 31017 new  |  total 2400 / 31017  (7.7%)  46 verses/sec
+00:10:47  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:49  INFO     API: 2500 / 31017 new  |  total 2500 / 31017  (8.1%)  46 verses/sec
+00:10:49  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:51  INFO     API: 2600 / 31017 new  |  total 2600 / 31017  (8.4%)  45 verses/sec
+00:10:52  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:54  INFO     API: 2700 / 31017 new  |  total 2700 / 31017  (8.7%)  45 verses/sec
+00:10:54  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:10:57  INFO     API: 2800 / 31017 new  |  total 2800 / 31017  (9.0%)  45 verses/sec
+00:10:58  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:00  INFO     API: 2900 / 31017 new  |  total 2900 / 31017  (9.3%)  44 verses/sec
+00:11:00  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:11:00  INFO     Retrying request to /embeddings in 0.398349 seconds
+00:11:01  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:04  INFO     API: 3000 / 31017 new  |  total 3000 / 31017  (9.7%)  43 verses/sec
+00:11:04  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:07  INFO     API: 3100 / 31017 new  |  total 3100 / 31017  (10.0%)  43 verses/sec
+00:11:07  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:11:07  INFO     Retrying request to /embeddings in 0.425860 seconds
+00:11:08  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:10  INFO     API: 3200 / 31017 new  |  total 3200 / 31017  (10.3%)  42 verses/sec
+00:11:11  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:11:11  INFO     Retrying request to /embeddings in 0.407615 seconds
+00:11:12  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:14  INFO     API: 3300 / 31017 new  |  total 3300 / 31017  (10.6%)  41 verses/sec
+00:11:14  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:11:14  INFO     Retrying request to /embeddings in 0.485752 seconds
+00:11:15  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:18  INFO     API: 3400 / 31017 new  |  total 3400 / 31017  (11.0%)  40 verses/sec
+00:11:19  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:22  INFO     API: 3500 / 31017 new  |  total 3500 / 31017  (11.3%)  40 verses/sec
+00:11:22  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:25  INFO     API: 3600 / 31017 new  |  total 3600 / 31017  (11.6%)  40 verses/sec
+00:11:25  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:28  INFO     API: 3700 / 31017 new  |  total 3700 / 31017  (11.9%)  39 verses/sec
+00:11:29  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:32  INFO     API: 3800 / 31017 new  |  total 3800 / 31017  (12.3%)  39 verses/sec
+00:11:32  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:35  INFO     API: 3900 / 31017 new  |  total 3900 / 31017  (12.6%)  38 verses/sec
+00:11:36  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:39  INFO     API: 4000 / 31017 new  |  total 4000 / 31017  (12.9%)  38 verses/sec
+00:11:40  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:43  INFO     API: 4100 / 31017 new  |  total 4100 / 31017  (13.2%)  38 verses/sec
+00:11:43  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:11:43  INFO     Retrying request to /embeddings in 0.394067 seconds
+00:11:44  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:48  INFO     API: 4200 / 31017 new  |  total 4200 / 31017  (13.5%)  37 verses/sec
+00:11:48  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:52  INFO     API: 4300 / 31017 new  |  total 4300 / 31017  (13.9%)  37 verses/sec
+00:11:52  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:11:56  INFO     API: 4400 / 31017 new  |  total 4400 / 31017  (14.2%)  36 verses/sec
+00:11:56  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:00  INFO     API: 4500 / 31017 new  |  total 4500 / 31017  (14.5%)  36 verses/sec
+00:12:00  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:12:00  INFO     Retrying request to /embeddings in 0.496558 seconds
+00:12:01  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:12:01  INFO     Retrying request to /embeddings in 0.985873 seconds
+00:12:02  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:06  INFO     API: 4600 / 31017 new  |  total 4600 / 31017  (14.8%)  35 verses/sec
+00:12:06  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:10  INFO     API: 4700 / 31017 new  |  total 4700 / 31017  (15.2%)  35 verses/sec
+00:12:10  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:14  INFO     API: 4800 / 31017 new  |  total 4800 / 31017  (15.5%)  34 verses/sec
+00:12:15  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:12:15  INFO     Retrying request to /embeddings in 0.443888 seconds
+00:12:15  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:20  INFO     API: 4900 / 31017 new  |  total 4900 / 31017  (15.8%)  34 verses/sec
+00:12:20  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:24  INFO     API: 5000 / 31017 new  |  total 5000 / 31017  (16.1%)  33 verses/sec
+00:12:24  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:29  INFO     API: 5100 / 31017 new  |  total 5100 / 31017  (16.4%)  33 verses/sec
+00:12:29  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:12:29  INFO     Retrying request to /embeddings in 0.471045 seconds
+00:12:30  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:34  INFO     API: 5200 / 31017 new  |  total 5200 / 31017  (16.8%)  33 verses/sec
+00:12:34  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:39  INFO     API: 5300 / 31017 new  |  total 5300 / 31017  (17.1%)  32 verses/sec
+00:12:39  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:43  INFO     API: 5400 / 31017 new  |  total 5400 / 31017  (17.4%)  32 verses/sec
+00:12:44  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:49  INFO     API: 5500 / 31017 new  |  total 5500 / 31017  (17.7%)  32 verses/sec
+00:12:49  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:54  INFO     API: 5600 / 31017 new  |  total 5600 / 31017  (18.1%)  31 verses/sec
+00:12:54  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:12:58  INFO     API: 5700 / 31017 new  |  total 5700 / 31017  (18.4%)  31 verses/sec
+00:12:59  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:13:04  INFO     API: 5800 / 31017 new  |  total 5800 / 31017  (18.7%)  31 verses/sec
+00:13:04  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:13:09  INFO     API: 5900 / 31017 new  |  total 5900 / 31017  (19.0%)  30 verses/sec
+00:13:09  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:13:14  INFO     API: 6000 / 31017 new  |  total 6000 / 31017  (19.3%)  30 verses/sec
+00:13:15  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:13:20  INFO     API: 6100 / 31017 new  |  total 6100 / 31017  (19.7%)  30 verses/sec
+00:13:20  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:13:26  INFO     API: 6200 / 31017 new  |  total 6200 / 31017  (20.0%)  29 verses/sec
+00:13:26  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:13:31  INFO     API: 6300 / 31017 new  |  total 6300 / 31017  (20.3%)  29 verses/sec
+00:13:32  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:13:37  INFO     API: 6400 / 31017 new  |  total 6400 / 31017  (20.6%)  29 verses/sec
+00:13:38  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:13:44  INFO     API: 6500 / 31017 new  |  total 6500 / 31017  (21.0%)  28 verses/sec
+00:13:44  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:13:44  INFO     Retrying request to /embeddings in 0.499214 seconds
+00:13:45  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:13:51  INFO     API: 6600 / 31017 new  |  total 6600 / 31017  (21.3%)  28 verses/sec
+00:13:52  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:13:57  INFO     API: 6700 / 31017 new  |  total 6700 / 31017  (21.6%)  28 verses/sec
+00:13:58  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:14:03  INFO     API: 6800 / 31017 new  |  total 6800 / 31017  (21.9%)  27 verses/sec
+00:14:04  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:14:09  INFO     API: 6900 / 31017 new  |  total 6900 / 31017  (22.2%)  27 verses/sec
+00:14:09  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:14:09  INFO     Retrying request to /embeddings in 0.386587 seconds
+00:14:10  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:14:16  INFO     API: 7000 / 31017 new  |  total 7000 / 31017  (22.6%)  27 verses/sec
+00:14:16  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:14:22  INFO     API: 7100 / 31017 new  |  total 7100 / 31017  (22.9%)  26 verses/sec
+00:14:26  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:14:31  INFO     API: 7200 / 31017 new  |  total 7200 / 31017  (23.2%)  26 verses/sec
+00:14:32  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+00:14:32  INFO     Retrying request to /embeddings in 0.464542 seconds
+00:14:33  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:14:38  INFO     API: 7300 / 31017 new  |  total 7300 / 31017  (23.5%)  26 verses/sec
+00:14:39  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:14:45  INFO     API: 7400 / 31017 new  |  total 7400 / 31017  (23.9%)  25 verses/sec
+00:14:46  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:14:52  INFO     API: 7500 / 31017 new  |  total 7500 / 31017  (24.2%)  25 verses/sec
+00:14:53  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:14:59  INFO     API: 7600 / 31017 new  |  total 7600 / 31017  (24.5%)  25 verses/sec
+00:15:00  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:15:06  INFO     API: 7700 / 31017 new  |  total 7700 / 31017  (24.8%)  25 verses/sec
+00:15:06  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:15:12  INFO     API: 7800 / 31017 new  |  total 7800 / 31017  (25.1%)  24 verses/sec
+00:15:13  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:15:20  INFO     API: 7900 / 31017 new  |  total 7900 / 31017  (25.5%)  24 verses/sec
+00:15:20  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:15:27  INFO     API: 8000 / 31017 new  |  total 8000 / 31017  (25.8%)  24 verses/sec
+00:15:27  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:15:34  INFO     API: 8100 / 31017 new  |  total 8100 / 31017  (26.1%)  24 verses/sec
+00:15:34  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:15:41  INFO     API: 8200 / 31017 new  |  total 8200 / 31017  (26.4%)  24 verses/sec
+00:15:42  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:15:48  INFO     API: 8300 / 31017 new  |  total 8300 / 31017  (26.8%)  23 verses/sec
+00:15:49  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:15:55  INFO     API: 8400 / 31017 new  |  total 8400 / 31017  (27.1%)  23 verses/sec
+00:15:56  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:16:03  INFO     API: 8500 / 31017 new  |  total 8500 / 31017  (27.4%)  23 verses/sec
+00:16:03  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:16:10  INFO     API: 8600 / 31017 new  |  total 8600 / 31017  (27.7%)  23 verses/sec
+00:16:11  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:16:18  INFO     API: 8700 / 31017 new  |  total 8700 / 31017  (28.0%)  23 verses/sec
+00:16:23  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:16:31  INFO     API: 8800 / 31017 new  |  total 8800 / 31017  (28.4%)  22 verses/sec
+00:16:32  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:16:39  INFO     API: 8900 / 31017 new  |  total 8900 / 31017  (28.7%)  22 verses/sec
+00:16:40  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:16:49  INFO     API: 9000 / 31017 new  |  total 9000 / 31017  (29.0%)  22 verses/sec
+00:16:50  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:17:00  INFO     API: 9100 / 31017 new  |  total 9100 / 31017  (29.3%)  21 verses/sec
+00:17:00  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:17:10  INFO     API: 9200 / 31017 new  |  total 9200 / 31017  (29.7%)  21 verses/sec
+00:17:10  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:17:18  INFO     API: 9300 / 31017 new  |  total 9300 / 31017  (30.0%)  21 verses/sec
+00:17:19  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:17:27  INFO     API: 9400 / 31017 new  |  total 9400 / 31017  (30.3%)  21 verses/sec
+00:17:27  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:17:36  INFO     API: 9500 / 31017 new  |  total 9500 / 31017  (30.6%)  21 verses/sec
+00:17:36  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:17:45  INFO     API: 9600 / 31017 new  |  total 9600 / 31017  (31.0%)  20 verses/sec
+00:17:45  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:17:53  INFO     API: 9700 / 31017 new  |  total 9700 / 31017  (31.3%)  20 verses/sec
+00:17:54  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:18:02  INFO     API: 9800 / 31017 new  |  total 9800 / 31017  (31.6%)  20 verses/sec
+00:18:03  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:18:11  INFO     API: 9900 / 31017 new  |  total 9900 / 31017  (31.9%)  20 verses/sec
+00:18:12  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:18:20  INFO     API: 10000 / 31017 new  |  total 10000 / 31017  (32.2%)  20 verses/sec
+00:18:21  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:18:29  INFO     API: 10100 / 31017 new  |  total 10100 / 31017  (32.6%)  20 verses/sec
+00:18:30  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:18:38  INFO     API: 10200 / 31017 new  |  total 10200 / 31017  (32.9%)  19 verses/sec
+00:18:39  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:18:47  INFO     API: 10300 / 31017 new  |  total 10300 / 31017  (33.2%)  19 verses/sec
+00:18:48  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:18:56  INFO     API: 10400 / 31017 new  |  total 10400 / 31017  (33.5%)  19 verses/sec
+00:18:57  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:19:06  INFO     API: 10500 / 31017 new  |  total 10500 / 31017  (33.9%)  19 verses/sec
+00:19:07  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:19:15  INFO     API: 10600 / 31017 new  |  total 10600 / 31017  (34.2%)  19 verses/sec
+00:19:16  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:19:25  INFO     API: 10700 / 31017 new  |  total 10700 / 31017  (34.5%)  19 verses/sec
+00:19:26  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:19:34  INFO     API: 10800 / 31017 new  |  total 10800 / 31017  (34.8%)  19 verses/sec
+00:19:35  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:19:44  INFO     API: 10900 / 31017 new  |  total 10900 / 31017  (35.1%)  18 verses/sec
+00:19:45  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:19:54  INFO     API: 11000 / 31017 new  |  total 11000 / 31017  (35.5%)  18 verses/sec
+00:19:54  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:20:03  INFO     API: 11100 / 31017 new  |  total 11100 / 31017  (35.8%)  18 verses/sec
+00:20:03  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:20:13  INFO     API: 11200 / 31017 new  |  total 11200 / 31017  (36.1%)  18 verses/sec
+00:20:13  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:20:23  INFO     API: 11300 / 31017 new  |  total 11300 / 31017  (36.4%)  18 verses/sec
+00:20:23  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:20:34  INFO     API: 11400 / 31017 new  |  total 11400 / 31017  (36.8%)  18 verses/sec
+00:20:35  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:20:45  INFO     API: 11500 / 31017 new  |  total 11500 / 31017  (37.1%)  18 verses/sec
+00:20:45  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:20:55  INFO     API: 11600 / 31017 new  |  total 11600 / 31017  (37.4%)  18 verses/sec
+00:20:55  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:21:06  INFO     API: 11700 / 31017 new  |  total 11700 / 31017  (37.7%)  17 verses/sec
+00:21:07  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:21:17  INFO     API: 11800 / 31017 new  |  total 11800 / 31017  (38.0%)  17 verses/sec
+00:21:17  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:21:26  INFO     API: 11900 / 31017 new  |  total 11900 / 31017  (38.4%)  17 verses/sec
+00:21:27  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:21:36  INFO     API: 12000 / 31017 new  |  total 12000 / 31017  (38.7%)  17 verses/sec
+00:21:37  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:21:47  INFO     API: 12100 / 31017 new  |  total 12100 / 31017  (39.0%)  17 verses/sec
+00:21:47  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:21:57  INFO     API: 12200 / 31017 new  |  total 12200 / 31017  (39.3%)  17 verses/sec
+00:21:58  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:22:09  INFO     API: 12300 / 31017 new  |  total 12300 / 31017  (39.7%)  17 verses/sec
+00:22:09  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:22:20  INFO     API: 12400 / 31017 new  |  total 12400 / 31017  (40.0%)  17 verses/sec
+00:22:20  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:22:30  INFO     API: 12500 / 31017 new  |  total 12500 / 31017  (40.3%)  17 verses/sec
+00:22:31  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:22:40  INFO     API: 12600 / 31017 new  |  total 12600 / 31017  (40.6%)  16 verses/sec
+00:22:41  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:22:51  INFO     API: 12700 / 31017 new  |  total 12700 / 31017  (40.9%)  16 verses/sec
+00:22:52  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:23:02  INFO     API: 12800 / 31017 new  |  total 12800 / 31017  (41.3%)  16 verses/sec
+00:23:03  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:23:14  INFO     API: 12900 / 31017 new  |  total 12900 / 31017  (41.6%)  16 verses/sec
+00:23:14  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:23:24  INFO     API: 13000 / 31017 new  |  total 13000 / 31017  (41.9%)  16 verses/sec
+00:23:25  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:23:38  INFO     API: 13100 / 31017 new  |  total 13100 / 31017  (42.2%)  16 verses/sec
+00:23:39  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:23:49  INFO     API: 13200 / 31017 new  |  total 13200 / 31017  (42.6%)  16 verses/sec
+00:23:50  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:24:01  INFO     API: 13300 / 31017 new  |  total 13300 / 31017  (42.9%)  16 verses/sec
+00:24:01  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:24:12  INFO     API: 13400 / 31017 new  |  total 13400 / 31017  (43.2%)  16 verses/sec
+00:24:13  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:24:24  INFO     API: 13500 / 31017 new  |  total 13500 / 31017  (43.5%)  16 verses/sec
+00:24:24  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:24:35  INFO     API: 13600 / 31017 new  |  total 13600 / 31017  (43.8%)  15 verses/sec
+00:24:35  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:24:46  INFO     API: 13700 / 31017 new  |  total 13700 / 31017  (44.2%)  15 verses/sec
+00:24:47  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:24:58  INFO     API: 13800 / 31017 new  |  total 13800 / 31017  (44.5%)  15 verses/sec
+00:24:59  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:25:09  INFO     API: 13900 / 31017 new  |  total 13900 / 31017  (44.8%)  15 verses/sec
+00:25:10  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:25:21  INFO     API: 14000 / 31017 new  |  total 14000 / 31017  (45.1%)  15 verses/sec
+00:25:22  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:25:33  INFO     API: 14100 / 31017 new  |  total 14100 / 31017  (45.5%)  15 verses/sec
+00:25:34  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:25:45  INFO     API: 14200 / 31017 new  |  total 14200 / 31017  (45.8%)  15 verses/sec
+00:25:46  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:25:57  INFO     API: 14300 / 31017 new  |  total 14300 / 31017  (46.1%)  15 verses/sec
+00:25:58  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:26:10  INFO     API: 14400 / 31017 new  |  total 14400 / 31017  (46.4%)  15 verses/sec
+00:26:10  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:26:22  INFO     API: 14500 / 31017 new  |  total 14500 / 31017  (46.7%)  15 verses/sec
+00:26:23  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:26:36  INFO     API: 14600 / 31017 new  |  total 14600 / 31017  (47.1%)  15 verses/sec
+00:26:37  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:26:55  INFO     API: 14700 / 31017 new  |  total 14700 / 31017  (47.4%)  14 verses/sec
+00:26:56  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:27:09  INFO     API: 14800 / 31017 new  |  total 14800 / 31017  (47.7%)  14 verses/sec
+00:27:10  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:27:23  INFO     API: 14900 / 31017 new  |  total 14900 / 31017  (48.0%)  14 verses/sec
+00:27:24  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:27:37  INFO     API: 15000 / 31017 new  |  total 15000 / 31017  (48.4%)  14 verses/sec
+00:27:46  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:27:59  INFO     API: 15100 / 31017 new  |  total 15100 / 31017  (48.7%)  14 verses/sec
+00:28:00  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:28:12  INFO     API: 15200 / 31017 new  |  total 15200 / 31017  (49.0%)  14 verses/sec
+00:28:13  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:28:26  INFO     API: 15300 / 31017 new  |  total 15300 / 31017  (49.3%)  14 verses/sec
+00:28:26  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:28:41  INFO     API: 15400 / 31017 new  |  total 15400 / 31017  (49.7%)  14 verses/sec
+00:28:42  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:28:56  INFO     API: 15500 / 31017 new  |  total 15500 / 31017  (50.0%)  14 verses/sec
+00:28:56  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:29:11  INFO     API: 15600 / 31017 new  |  total 15600 / 31017  (50.3%)  13 verses/sec
+00:29:12  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:29:25  INFO     API: 15700 / 31017 new  |  total 15700 / 31017  (50.6%)  13 verses/sec
+00:29:26  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:29:39  INFO     API: 15800 / 31017 new  |  total 15800 / 31017  (50.9%)  13 verses/sec
+00:29:40  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:29:53  INFO     API: 15900 / 31017 new  |  total 15900 / 31017  (51.3%)  13 verses/sec
+00:29:54  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:30:10  INFO     API: 16000 / 31017 new  |  total 16000 / 31017  (51.6%)  13 verses/sec
+00:30:11  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:30:25  INFO     API: 16100 / 31017 new  |  total 16100 / 31017  (51.9%)  13 verses/sec
+00:30:26  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:30:40  INFO     API: 16200 / 31017 new  |  total 16200 / 31017  (52.2%)  13 verses/sec
+00:30:40  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:30:54  INFO     API: 16300 / 31017 new  |  total 16300 / 31017  (52.6%)  13 verses/sec
+00:30:54  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:31:08  INFO     API: 16400 / 31017 new  |  total 16400 / 31017  (52.9%)  13 verses/sec
+00:31:09  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:31:25  INFO     API: 16500 / 31017 new  |  total 16500 / 31017  (53.2%)  13 verses/sec
+00:31:25  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:31:39  INFO     API: 16600 / 31017 new  |  total 16600 / 31017  (53.5%)  13 verses/sec
+00:31:40  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:31:54  INFO     API: 16700 / 31017 new  |  total 16700 / 31017  (53.8%)  13 verses/sec
+00:31:54  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:32:08  INFO     API: 16800 / 31017 new  |  total 16800 / 31017  (54.2%)  13 verses/sec
+00:32:09  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:32:23  INFO     API: 16900 / 31017 new  |  total 16900 / 31017  (54.5%)  13 verses/sec
+00:32:24  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:32:38  INFO     API: 17000 / 31017 new  |  total 17000 / 31017  (54.8%)  12 verses/sec
+00:32:38  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:32:53  INFO     API: 17100 / 31017 new  |  total 17100 / 31017  (55.1%)  12 verses/sec
+00:32:53  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:33:07  INFO     API: 17200 / 31017 new  |  total 17200 / 31017  (55.5%)  12 verses/sec
+00:33:08  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:33:26  INFO     API: 17300 / 31017 new  |  total 17300 / 31017  (55.8%)  12 verses/sec
+00:33:26  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:33:43  INFO     API: 17400 / 31017 new  |  total 17400 / 31017  (56.1%)  12 verses/sec
+00:33:44  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:34:01  INFO     API: 17500 / 31017 new  |  total 17500 / 31017  (56.4%)  12 verses/sec
+00:34:01  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:34:18  INFO     API: 17600 / 31017 new  |  total 17600 / 31017  (56.7%)  12 verses/sec
+00:34:18  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:34:33  INFO     API: 17700 / 31017 new  |  total 17700 / 31017  (57.1%)  12 verses/sec
+00:34:34  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:34:49  INFO     API: 17800 / 31017 new  |  total 17800 / 31017  (57.4%)  12 verses/sec
+00:34:50  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:35:05  INFO     API: 17900 / 31017 new  |  total 17900 / 31017  (57.7%)  12 verses/sec
+00:35:06  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:35:22  INFO     API: 18000 / 31017 new  |  total 18000 / 31017  (58.0%)  12 verses/sec
+00:35:23  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:35:37  INFO     API: 18100 / 31017 new  |  total 18100 / 31017  (58.4%)  12 verses/sec
+00:35:38  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:35:52  INFO     API: 18200 / 31017 new  |  total 18200 / 31017  (58.7%)  12 verses/sec
+00:35:53  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:36:08  INFO     API: 18300 / 31017 new  |  total 18300 / 31017  (59.0%)  12 verses/sec
+00:36:08  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:36:23  INFO     API: 18400 / 31017 new  |  total 18400 / 31017  (59.3%)  12 verses/sec
+00:36:23  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:36:38  INFO     API: 18500 / 31017 new  |  total 18500 / 31017  (59.6%)  12 verses/sec
+00:36:39  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:36:54  INFO     API: 18600 / 31017 new  |  total 18600 / 31017  (60.0%)  11 verses/sec
+00:36:54  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:37:09  INFO     API: 18700 / 31017 new  |  total 18700 / 31017  (60.3%)  11 verses/sec
+00:37:10  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:37:26  INFO     API: 18800 / 31017 new  |  total 18800 / 31017  (60.6%)  11 verses/sec
+00:37:27  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:37:43  INFO     API: 18900 / 31017 new  |  total 18900 / 31017  (60.9%)  11 verses/sec
+00:37:43  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:38:01  INFO     API: 19000 / 31017 new  |  total 19000 / 31017  (61.3%)  11 verses/sec
+00:38:02  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:38:19  INFO     API: 19100 / 31017 new  |  total 19100 / 31017  (61.6%)  11 verses/sec
+00:38:19  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:38:34  INFO     API: 19200 / 31017 new  |  total 19200 / 31017  (61.9%)  11 verses/sec
+00:38:35  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:38:50  INFO     API: 19300 / 31017 new  |  total 19300 / 31017  (62.2%)  11 verses/sec
+00:38:50  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:39:05  INFO     API: 19400 / 31017 new  |  total 19400 / 31017  (62.5%)  11 verses/sec
+00:39:05  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:39:20  INFO     API: 19500 / 31017 new  |  total 19500 / 31017  (62.9%)  11 verses/sec
+00:39:21  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:39:36  INFO     API: 19600 / 31017 new  |  total 19600 / 31017  (63.2%)  11 verses/sec
+00:39:37  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:39:52  INFO     API: 19700 / 31017 new  |  total 19700 / 31017  (63.5%)  11 verses/sec
+00:39:53  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:40:08  INFO     API: 19800 / 31017 new  |  total 19800 / 31017  (63.8%)  11 verses/sec
+00:40:08  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:40:25  INFO     API: 19900 / 31017 new  |  total 19900 / 31017  (64.2%)  11 verses/sec
+00:40:25  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:40:41  INFO     API: 20000 / 31017 new  |  total 20000 / 31017  (64.5%)  11 verses/sec
+00:40:41  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:40:57  INFO     API: 20100 / 31017 new  |  total 20100 / 31017  (64.8%)  11 verses/sec
+00:40:57  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:41:13  INFO     API: 20200 / 31017 new  |  total 20200 / 31017  (65.1%)  11 verses/sec
+00:41:14  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:41:29  INFO     API: 20300 / 31017 new  |  total 20300 / 31017  (65.4%)  11 verses/sec
+00:41:30  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:41:46  INFO     API: 20400 / 31017 new  |  total 20400 / 31017  (65.8%)  11 verses/sec
+00:41:46  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:42:02  INFO     API: 20500 / 31017 new  |  total 20500 / 31017  (66.1%)  11 verses/sec
+00:42:03  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:42:20  INFO     API: 20600 / 31017 new  |  total 20600 / 31017  (66.4%)  11 verses/sec
+00:42:20  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:42:36  INFO     API: 20700 / 31017 new  |  total 20700 / 31017  (66.7%)  11 verses/sec
+00:42:39  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:42:55  INFO     API: 20800 / 31017 new  |  total 20800 / 31017  (67.1%)  10 verses/sec
+00:42:56  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:43:12  INFO     API: 20900 / 31017 new  |  total 20900 / 31017  (67.4%)  10 verses/sec
+00:43:13  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:43:29  INFO     API: 21000 / 31017 new  |  total 21000 / 31017  (67.7%)  10 verses/sec
+00:43:30  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:43:46  INFO     API: 21100 / 31017 new  |  total 21100 / 31017  (68.0%)  10 verses/sec
+00:43:47  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:44:03  INFO     API: 21200 / 31017 new  |  total 21200 / 31017  (68.3%)  10 verses/sec
+00:44:04  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:44:20  INFO     API: 21300 / 31017 new  |  total 21300 / 31017  (68.7%)  10 verses/sec
+00:44:21  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:44:38  INFO     API: 21400 / 31017 new  |  total 21400 / 31017  (69.0%)  10 verses/sec
+00:44:38  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:44:55  INFO     API: 21500 / 31017 new  |  total 21500 / 31017  (69.3%)  10 verses/sec
+00:44:55  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:45:12  INFO     API: 21600 / 31017 new  |  total 21600 / 31017  (69.6%)  10 verses/sec
+00:45:13  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:45:30  INFO     API: 21700 / 31017 new  |  total 21700 / 31017  (70.0%)  10 verses/sec
+00:45:31  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:45:48  INFO     API: 21800 / 31017 new  |  total 21800 / 31017  (70.3%)  10 verses/sec
+00:45:48  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:46:06  INFO     API: 21900 / 31017 new  |  total 21900 / 31017  (70.6%)  10 verses/sec
+00:46:07  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:46:24  INFO     API: 22000 / 31017 new  |  total 22000 / 31017  (70.9%)  10 verses/sec
+00:46:25  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:46:42  INFO     API: 22100 / 31017 new  |  total 22100 / 31017  (71.3%)  10 verses/sec
+00:46:43  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:47:01  INFO     API: 22200 / 31017 new  |  total 22200 / 31017  (71.6%)  10 verses/sec
+00:47:02  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:47:19  INFO     API: 22300 / 31017 new  |  total 22300 / 31017  (71.9%)  10 verses/sec
+00:47:20  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:47:38  INFO     API: 22400 / 31017 new  |  total 22400 / 31017  (72.2%)  10 verses/sec
+00:47:38  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:47:56  INFO     API: 22500 / 31017 new  |  total 22500 / 31017  (72.5%)  10 verses/sec
+00:47:57  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:48:15  INFO     API: 22600 / 31017 new  |  total 22600 / 31017  (72.9%)  10 verses/sec
+00:48:15  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:48:33  INFO     API: 22700 / 31017 new  |  total 22700 / 31017  (73.2%)  10 verses/sec
+00:48:34  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:48:53  INFO     API: 22800 / 31017 new  |  total 22800 / 31017  (73.5%)  10 verses/sec
+00:48:58  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:49:16  INFO     API: 22900 / 31017 new  |  total 22900 / 31017  (73.8%)  10 verses/sec
+00:49:17  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:49:35  INFO     API: 23000 / 31017 new  |  total 23000 / 31017  (74.2%)  10 verses/sec
+00:49:35  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:49:54  INFO     API: 23100 / 31017 new  |  total 23100 / 31017  (74.5%)  10 verses/sec
+00:49:54  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:50:12  INFO     API: 23200 / 31017 new  |  total 23200 / 31017  (74.8%)  10 verses/sec
+00:50:13  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:50:31  INFO     API: 23300 / 31017 new  |  total 23300 / 31017  (75.1%)  10 verses/sec
+00:50:31  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:50:49  INFO     API: 23400 / 31017 new  |  total 23400 / 31017  (75.4%)  10 verses/sec
+00:50:50  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:51:08  INFO     API: 23500 / 31017 new  |  total 23500 / 31017  (75.8%)  9 verses/sec
+00:51:09  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:51:27  INFO     API: 23600 / 31017 new  |  total 23600 / 31017  (76.1%)  9 verses/sec
+00:51:27  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:51:45  INFO     API: 23700 / 31017 new  |  total 23700 / 31017  (76.4%)  9 verses/sec
+00:51:46  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:52:05  INFO     API: 23800 / 31017 new  |  total 23800 / 31017  (76.7%)  9 verses/sec
+00:52:05  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:52:24  INFO     API: 23900 / 31017 new  |  total 23900 / 31017  (77.1%)  9 verses/sec
+00:52:24  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:52:43  INFO     API: 24000 / 31017 new  |  total 24000 / 31017  (77.4%)  9 verses/sec
+00:52:44  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:53:03  INFO     API: 24100 / 31017 new  |  total 24100 / 31017  (77.7%)  9 verses/sec
+00:53:04  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:53:22  INFO     API: 24200 / 31017 new  |  total 24200 / 31017  (78.0%)  9 verses/sec
+00:53:22  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:53:41  INFO     API: 24300 / 31017 new  |  total 24300 / 31017  (78.3%)  9 verses/sec
+00:53:42  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:54:02  INFO     API: 24400 / 31017 new  |  total 24400 / 31017  (78.7%)  9 verses/sec
+00:54:02  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:54:21  INFO     API: 24500 / 31017 new  |  total 24500 / 31017  (79.0%)  9 verses/sec
+00:54:21  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:54:40  INFO     API: 24600 / 31017 new  |  total 24600 / 31017  (79.3%)  9 verses/sec
+00:54:41  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:55:00  INFO     API: 24700 / 31017 new  |  total 24700 / 31017  (79.6%)  9 verses/sec
+00:55:01  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:55:20  INFO     API: 24800 / 31017 new  |  total 24800 / 31017  (80.0%)  9 verses/sec
+00:55:21  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:55:40  INFO     API: 24900 / 31017 new  |  total 24900 / 31017  (80.3%)  9 verses/sec
+00:55:41  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:56:00  INFO     API: 25000 / 31017 new  |  total 25000 / 31017  (80.6%)  9 verses/sec
+00:56:01  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:56:21  INFO     API: 25100 / 31017 new  |  total 25100 / 31017  (80.9%)  9 verses/sec
+00:56:21  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:56:41  INFO     API: 25200 / 31017 new  |  total 25200 / 31017  (81.2%)  9 verses/sec
+00:56:41  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:57:01  INFO     API: 25300 / 31017 new  |  total 25300 / 31017  (81.6%)  9 verses/sec
+00:57:01  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:57:21  INFO     API: 25400 / 31017 new  |  total 25400 / 31017  (81.9%)  9 verses/sec
+00:57:22  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:57:42  INFO     API: 25500 / 31017 new  |  total 25500 / 31017  (82.2%)  9 verses/sec
+00:57:42  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:58:03  INFO     API: 25600 / 31017 new  |  total 25600 / 31017  (82.5%)  9 verses/sec
+00:58:04  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:58:24  INFO     API: 25700 / 31017 new  |  total 25700 / 31017  (82.9%)  9 verses/sec
+00:58:24  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:58:44  INFO     API: 25800 / 31017 new  |  total 25800 / 31017  (83.2%)  9 verses/sec
+00:58:45  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:59:05  INFO     API: 25900 / 31017 new  |  total 25900 / 31017  (83.5%)  9 verses/sec
+00:59:05  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:59:26  INFO     API: 26000 / 31017 new  |  total 26000 / 31017  (83.8%)  9 verses/sec
+00:59:26  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+00:59:46  INFO     API: 26100 / 31017 new  |  total 26100 / 31017  (84.1%)  9 verses/sec
+00:59:47  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:00:08  INFO     API: 26200 / 31017 new  |  total 26200 / 31017  (84.5%)  9 verses/sec
+01:00:08  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:00:29  INFO     API: 26300 / 31017 new  |  total 26300 / 31017  (84.8%)  9 verses/sec
+01:00:30  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:00:50  INFO     API: 26400 / 31017 new  |  total 26400 / 31017  (85.1%)  9 verses/sec
+01:00:51  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:01:12  INFO     API: 26500 / 31017 new  |  total 26500 / 31017  (85.4%)  9 verses/sec
+01:01:13  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:01:34  INFO     API: 26600 / 31017 new  |  total 26600 / 31017  (85.8%)  9 verses/sec
+01:01:34  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:01:55  INFO     API: 26700 / 31017 new  |  total 26700 / 31017  (86.1%)  9 verses/sec
+01:01:56  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:02:17  INFO     API: 26800 / 31017 new  |  total 26800 / 31017  (86.4%)  9 verses/sec
+01:02:18  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:02:39  INFO     API: 26900 / 31017 new  |  total 26900 / 31017  (86.7%)  8 verses/sec
+01:02:44  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:03:05  INFO     API: 27000 / 31017 new  |  total 27000 / 31017  (87.0%)  8 verses/sec
+01:03:05  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:03:27  INFO     API: 27100 / 31017 new  |  total 27100 / 31017  (87.4%)  8 verses/sec
+01:03:27  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:03:49  INFO     API: 27200 / 31017 new  |  total 27200 / 31017  (87.7%)  8 verses/sec
+01:03:49  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:04:11  INFO     API: 27300 / 31017 new  |  total 27300 / 31017  (88.0%)  8 verses/sec
+01:04:12  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:04:33  INFO     API: 27400 / 31017 new  |  total 27400 / 31017  (88.3%)  8 verses/sec
+01:04:33  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:04:55  INFO     API: 27500 / 31017 new  |  total 27500 / 31017  (88.7%)  8 verses/sec
+01:04:55  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:05:17  INFO     API: 27600 / 31017 new  |  total 27600 / 31017  (89.0%)  8 verses/sec
+01:05:18  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:05:39  INFO     API: 27700 / 31017 new  |  total 27700 / 31017  (89.3%)  8 verses/sec
+01:05:40  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:06:02  INFO     API: 27800 / 31017 new  |  total 27800 / 31017  (89.6%)  8 verses/sec
+01:06:03  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:06:25  INFO     API: 27900 / 31017 new  |  total 27900 / 31017  (90.0%)  8 verses/sec
+01:06:29  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:06:51  INFO     API: 28000 / 31017 new  |  total 28000 / 31017  (90.3%)  8 verses/sec
+01:06:52  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:07:14  INFO     API: 28100 / 31017 new  |  total 28100 / 31017  (90.6%)  8 verses/sec
+01:07:15  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:07:37  INFO     API: 28200 / 31017 new  |  total 28200 / 31017  (90.9%)  8 verses/sec
+01:07:38  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:08:00  INFO     API: 28300 / 31017 new  |  total 28300 / 31017  (91.2%)  8 verses/sec
+01:08:01  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:08:23  INFO     API: 28400 / 31017 new  |  total 28400 / 31017  (91.6%)  8 verses/sec
+01:08:24  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:08:46  INFO     API: 28500 / 31017 new  |  total 28500 / 31017  (91.9%)  8 verses/sec
+01:08:47  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:09:10  INFO     API: 28600 / 31017 new  |  total 28600 / 31017  (92.2%)  8 verses/sec
+01:09:10  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:09:33  INFO     API: 28700 / 31017 new  |  total 28700 / 31017  (92.5%)  8 verses/sec
+01:09:38  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:10:01  INFO     API: 28800 / 31017 new  |  total 28800 / 31017  (92.9%)  8 verses/sec
+01:10:02  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:10:25  INFO     API: 28900 / 31017 new  |  total 28900 / 31017  (93.2%)  8 verses/sec
+01:10:25  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:10:48  INFO     API: 29000 / 31017 new  |  total 29000 / 31017  (93.5%)  8 verses/sec
+01:10:49  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:11:12  INFO     API: 29100 / 31017 new  |  total 29100 / 31017  (93.8%)  8 verses/sec
+01:11:12  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:11:35  INFO     API: 29200 / 31017 new  |  total 29200 / 31017  (94.1%)  8 verses/sec
+01:11:36  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:12:00  INFO     API: 29300 / 31017 new  |  total 29300 / 31017  (94.5%)  8 verses/sec
+01:12:03  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:12:27  INFO     API: 29400 / 31017 new  |  total 29400 / 31017  (94.8%)  8 verses/sec
+01:12:27  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:12:50  INFO     API: 29500 / 31017 new  |  total 29500 / 31017  (95.1%)  8 verses/sec
+01:12:51  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:13:15  INFO     API: 29600 / 31017 new  |  total 29600 / 31017  (95.4%)  8 verses/sec
+01:13:15  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:13:38  INFO     API: 29700 / 31017 new  |  total 29700 / 31017  (95.8%)  8 verses/sec
+01:13:39  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:14:02  INFO     API: 29800 / 31017 new  |  total 29800 / 31017  (96.1%)  8 verses/sec
+01:14:03  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:14:27  INFO     API: 29900 / 31017 new  |  total 29900 / 31017  (96.4%)  8 verses/sec
+01:14:28  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:14:51  INFO     API: 30000 / 31017 new  |  total 30000 / 31017  (96.7%)  8 verses/sec
+01:14:52  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:15:16  INFO     API: 30100 / 31017 new  |  total 30100 / 31017  (97.0%)  8 verses/sec
+01:15:17  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:15:41  INFO     API: 30200 / 31017 new  |  total 30200 / 31017  (97.4%)  8 verses/sec
+01:15:42  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:16:05  INFO     API: 30300 / 31017 new  |  total 30300 / 31017  (97.7%)  8 verses/sec
+01:16:06  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:16:30  INFO     API: 30400 / 31017 new  |  total 30400 / 31017  (98.0%)  8 verses/sec
+01:16:30  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:16:54  INFO     API: 30500 / 31017 new  |  total 30500 / 31017  (98.3%)  8 verses/sec
+01:16:55  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:17:19  INFO     API: 30600 / 31017 new  |  total 30600 / 31017  (98.7%)  8 verses/sec
+01:17:20  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:17:44  INFO     API: 30700 / 31017 new  |  total 30700 / 31017  (99.0%)  8 verses/sec
+01:17:45  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:18:09  INFO     API: 30800 / 31017 new  |  total 30800 / 31017  (99.3%)  8 verses/sec
+01:18:10  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:18:34  INFO     API: 30900 / 31017 new  |  total 30900 / 31017  (99.6%)  8 verses/sec
+01:18:35  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:18:59  INFO     API: 31000 / 31017 new  |  total 31000 / 31017  (99.9%)  7 verses/sec
+01:18:59  INFO     HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+01:19:24  INFO     API: 31017 / 31017 new  |  total 31017 / 31017  (100.0%)  7 verses/sec
+01:19:24  INFO     Writing embeddings to Neo4j (batch_size=500) …
+01:19:25  INFO     Neo4j write: 500 / 31017  (1.6%)
+01:19:26  INFO     Neo4j write: 1000 / 31017  (3.2%)
+01:19:27  INFO     Neo4j write: 1500 / 31017  (4.8%)
+01:19:28  INFO     Neo4j write: 2000 / 31017  (6.4%)
+01:19:29  INFO     Neo4j write: 2500 / 31017  (8.1%)
+01:19:30  INFO     Neo4j write: 3000 / 31017  (9.7%)
+01:19:31  INFO     Neo4j write: 3500 / 31017  (11.3%)
+01:19:32  INFO     Neo4j write: 4000 / 31017  (12.9%)
+01:19:33  INFO     Neo4j write: 4500 / 31017  (14.5%)
+01:19:34  INFO     Neo4j write: 5000 / 31017  (16.1%)
+01:19:35  INFO     Neo4j write: 5500 / 31017  (17.7%)
+01:19:36  INFO     Neo4j write: 6000 / 31017  (19.3%)
+01:19:37  INFO     Neo4j write: 6500 / 31017  (21.0%)
+01:19:38  INFO     Neo4j write: 7000 / 31017  (22.6%)
+01:19:39  INFO     Neo4j write: 7500 / 31017  (24.2%)
+01:19:40  INFO     Neo4j write: 8000 / 31017  (25.8%)
+01:19:41  INFO     Neo4j write: 8500 / 31017  (27.4%)
+01:19:41  INFO     Neo4j write: 9000 / 31017  (29.0%)
+01:19:42  INFO     Neo4j write: 9500 / 31017  (30.6%)
+01:19:43  INFO     Neo4j write: 10000 / 31017  (32.2%)
+01:19:44  INFO     Neo4j write: 10500 / 31017  (33.9%)
+01:19:44  INFO     Neo4j write: 11000 / 31017  (35.5%)
+01:19:45  INFO     Neo4j write: 11500 / 31017  (37.1%)
+01:19:46  INFO     Neo4j write: 12000 / 31017  (38.7%)
+01:19:47  INFO     Neo4j write: 12500 / 31017  (40.3%)
+01:19:48  INFO     Neo4j write: 13000 / 31017  (41.9%)
+01:19:49  INFO     Neo4j write: 13500 / 31017  (43.5%)
+01:19:49  INFO     Neo4j write: 14000 / 31017  (45.1%)
+01:19:50  INFO     Neo4j write: 14500 / 31017  (46.7%)
+01:19:51  INFO     Neo4j write: 15000 / 31017  (48.4%)
+01:19:52  INFO     Neo4j write: 15500 / 31017  (50.0%)
+01:19:52  INFO     Neo4j write: 16000 / 31017  (51.6%)
+01:19:53  INFO     Neo4j write: 16500 / 31017  (53.2%)
+01:19:54  INFO     Neo4j write: 17000 / 31017  (54.8%)
+01:19:55  INFO     Neo4j write: 17500 / 31017  (56.4%)
+01:19:56  INFO     Neo4j write: 18000 / 31017  (58.0%)
+01:19:56  INFO     Neo4j write: 18500 / 31017  (59.6%)
+01:19:57  INFO     Neo4j write: 19000 / 31017  (61.3%)
+01:19:58  INFO     Neo4j write: 19500 / 31017  (62.9%)
+01:19:59  INFO     Neo4j write: 20000 / 31017  (64.5%)
+01:19:59  INFO     Neo4j write: 20500 / 31017  (66.1%)
+01:20:00  INFO     Neo4j write: 21000 / 31017  (67.7%)
+01:20:01  INFO     Neo4j write: 21500 / 31017  (69.3%)
+01:20:02  INFO     Neo4j write: 22000 / 31017  (70.9%)
+01:20:03  INFO     Neo4j write: 22500 / 31017  (72.5%)
+01:20:03  INFO     Neo4j write: 23000 / 31017  (74.2%)
+01:20:04  INFO     Neo4j write: 23500 / 31017  (75.8%)
+01:20:05  INFO     Neo4j write: 24000 / 31017  (77.4%)
+01:20:06  INFO     Neo4j write: 24500 / 31017  (79.0%)
+01:20:07  INFO     Neo4j write: 25000 / 31017  (80.6%)
+01:20:07  INFO     Neo4j write: 25500 / 31017  (82.2%)
+01:20:08  INFO     Neo4j write: 26000 / 31017  (83.8%)
+01:20:09  INFO     Neo4j write: 26500 / 31017  (85.4%)
+01:20:10  INFO     Neo4j write: 27000 / 31017  (87.0%)
+01:20:11  INFO     Neo4j write: 27500 / 31017  (88.7%)
+01:20:11  INFO     Neo4j write: 28000 / 31017  (90.3%)
+01:20:12  INFO     Neo4j write: 28500 / 31017  (91.9%)
+01:20:13  INFO     Neo4j write: 29000 / 31017  (93.5%)
+01:20:14  INFO     Neo4j write: 29500 / 31017  (95.1%)
+01:20:15  INFO     Neo4j write: 30000 / 31017  (96.7%)
+01:20:16  INFO     Neo4j write: 30500 / 31017  (98.3%)
+01:20:16  INFO     Neo4j write: 31000 / 31017  (99.9%)
+01:20:16  INFO     Neo4j write: 31017 / 31017  (100.0%)
+01:20:16  INFO     Neo4j write complete — 31017 embeddings in 52.3s.
+01:20:16  INFO     ─── Validation ───────────────────────────────────────
+01:20:16  INFO       ✓  Verses with embeddings: 31017  (expected ~31017)
+01:20:16  INFO       ✓  ROM.8.28 embedding dimensions: 1536  (expected 1536)
+01:20:16  INFO       ✓  No short verses (char_count < 25) have embeddings.
+01:20:16  INFO     ──────────────────────────────────────────────────────
+01:20:16  INFO     Step 3a complete.  31017 embeddings stored.
+01:20:16  INFO     Next: run step3b_build_index.py to create the HNSW vector index.

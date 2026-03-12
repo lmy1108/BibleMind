@@ -1,0 +1,39 @@
+09:54:35  INFO     Connecting to Neo4j at bolt://localhost:7687 as neo4j
+09:54:35  INFO     Neo4j connection verified.
+09:54:35  INFO     
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+ID                                   Description                                    Result        Detail
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+09:54:35  INFO       node.verse_count                     Total Verse nodes                              ✗ FAIL        31098 (expected 31102)
+09:54:35  INFO       node.book_count                      Total Book nodes                               ✓ PASS        66 (expected 66)
+09:54:35  INFO       node.ot_books                        OT Book nodes                                  ✓ PASS        39 (expected 39)
+09:54:35  INFO       node.nt_books                        NT Book nodes                                  ✓ PASS        27 (expected 27)
+09:54:35  INFO       edge.contains_total                  CONTAINS edges (structural)                    ✓ PASS        32287 (expected > 0)
+09:54:35  INFO       edge.references_total                REFERENCES edges total                         ✓ PASS        29751 (expected > 0)
+09:54:35  INFO       edge.references_min_votes            REFERENCES min(votes) >= 10                    ✓ PASS        10 (min 10)
+09:54:35  INFO       edge.references_max_degree           REFERENCES max outgoing degree <= 20           ✓ PASS        20 (max 20)
+09:54:35  INFO       embed.count                          Verses with embeddings                         ✓ PASS        31017 (expected > 0)
+09:54:35  INFO       embed.dimensions                     Embedding dimensions == 1536                   ✓ PASS        1536 (expected 1536)
+09:54:35  INFO       embed.no_short_verses                Short verses (char_count < 25) have no embeddings  ✓ PASS        0 (expected 0)
+09:54:35  INFO       edge.is_similar_total                IS_SIMILAR edges total                         ✓ PASS        155085 (expected > 0)
+09:54:36  INFO       edge.is_similar_max_degree           IS_SIMILAR max outgoing degree <= 5            ✓ PASS        5 (max 5)
+09:54:36  INFO       edge.is_similar_score_range          IS_SIMILAR scores are in [0, 1]                ✓ PASS        min=0.6673  max=1.0000
+09:54:36  INFO       graph.no_isolated_verses             Isolated verses (no REFERENCES, no IS_SIMILAR) == 0  ✗ FAIL        73 (expected 0)
+09:54:36  INFO       graph.no_self_references             Self-referencing REFERENCES edges == 0         ✓ PASS        0 (expected 0)
+09:54:36  INFO       graph.no_self_similar                Self-referencing IS_SIMILAR edges == 0         ✓ PASS        0 (expected 0)
+09:54:36  INFO     ────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Result: 15 / 17 checks passed.
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+09:54:36  INFO     ─── Spot-Check Verses ────────────────────────────────
+09:54:36  INFO       ✓  Romans 8:28  (121 chars)
+09:54:36  INFO       ✓  REFERENCES outgoing: 5  (min: 3)
+09:54:36  INFO       ✓  IS_SIMILAR (undirected): 5  (min: 3)
+09:54:36  INFO       ✓  John 3:16  (130 chars)
+09:54:36  INFO       ⚠  REFERENCES outgoing: 0  (min: 5)
+09:54:36  INFO       ✓  IS_SIMILAR (undirected): 5  (min: 3)
+09:54:36  INFO       ✓  Psalms 23:1  (62 chars)
+09:54:36  INFO       ✓  REFERENCES outgoing: 5  (min: 1)
+09:54:36  INFO       ✓  IS_SIMILAR (undirected): 5  (min: 3)
+09:54:36  INFO     ──────────────────────────────────────────────────────
+09:54:36  INFO     Total validation time: 0.7s
+09:54:36  ERROR    ✗  2 / 17 check(s) failed.  Re-run with --fix-hints for remediation guidance.
