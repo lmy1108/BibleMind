@@ -5,8 +5,11 @@ An interactive knowledge graph for exploring the Bible — connecting 31,000+ ve
 ![Graph Explorer](https://img.shields.io/badge/Neo4j-5.x-blue) ![Python](https://img.shields.io/badge/Python-3.9+-green) ![Dash](https://img.shields.io/badge/Dash-2.9+-red) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
-<video src="https://files.catbox.moe/2tzcb1.mov" width="600" controls></video>
-![Video Preview Title](https://files.catbox.moe/2tzcb1.mov)
+
+
+
+https://github.com/user-attachments/assets/dfd8ad03-1af9-478a-95b5-5dd7ae606551
+
 
 
 
