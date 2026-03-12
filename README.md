@@ -6,6 +6,8 @@ An interactive knowledge graph for exploring the Bible — connecting 31,000+ ve
 
 ---
 <video src="https://files.catbox.moe/2tzcb1.mov" width="600" controls></video>
+![Video Preview Title](https://files.catbox.moe/2tzcb1.mov)
+
 
 
 
